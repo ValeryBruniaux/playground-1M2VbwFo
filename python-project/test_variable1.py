@@ -17,13 +17,12 @@ def test():
         assert a == 5, "a doit contenir 5"
         success()
 
-		send_msg("Felicitation 🌟", "C'est bien ça !")
+        send_msg("Felicitation 🌟", "C'est bien ça !")
 
     except AssertionError as e:
         fail()
         send_msg("Oops! 🐞", e)
         send_msg("Hint 💡", "Revoyez les variables ! 🤔")
 
-
 if __name__ == "__main__":
-    test()
+   test()
