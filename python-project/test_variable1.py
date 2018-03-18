@@ -17,7 +17,7 @@ def test():
         assert a == 5, "a doit contenir 5"
         success()
 
-        send_msg("Felicitation 🌟", "C'est bien ça !")
+        send_msg("Félicitation 🌟", "C'est bien ça !")
 
     except AssertionError as e:
         fail()
