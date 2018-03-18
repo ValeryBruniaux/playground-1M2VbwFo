@@ -1,10 +1,11 @@
 title: Python Project
 
 plan:
-- title: Welcome1
-  statement: markdowns/welcome.md
 - title: Variables
   statement: markdowns/variables.md
+
+- title: Welcome du template de Tech.io
+  statement: markdowns/welcome.md
 
 projects:
   python:
