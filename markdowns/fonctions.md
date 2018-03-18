@@ -2,11 +2,11 @@
 
 Vous pouvez retrouver des infos utilises ici : [Les fonctions](https://fr.wikibooks.org/wiki/Programmation_Python/Fonctions).
 
-## Commençons par un exercice facile
+## Déclaration d'une fonction
 
-@[Écrivez une variable nommée a qui contient la valeur 5]({"stubs": ["variable1.py"], "command": "python3 test_variable1.py"})
+@[Écrivez une fonction nommée toto qui renvoie la valeur 5]({"stubs": ["fonction1.py"], "command": "python3 test_fonction1.py"})
 
-## Puis plus difficile
+## Avec des paramètres
 
-@[Écrivez trois variables a, b et c qui contienent la valeur 5]({"stubs": ["variable2.py"], "command": "python3 test_variable2.py"})
+@[Écrivez une fonction toto qui fait la somme de ses deux paramètres]({"stubs": ["fonction2.py"], "command": "python3 test_fonction2.py"})
 
