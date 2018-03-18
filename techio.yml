@@ -4,6 +4,9 @@ plan:
 - title: Variables
   statement: markdowns/variables.md
 
+- title: Fonctions
+  statement: markdowns/fonctions.md
+
 - title: Welcome du template de Tech.io
   statement: markdowns/welcome.md
 

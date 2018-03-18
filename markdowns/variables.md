@@ -1,6 +1,6 @@
-# Bonjour !
+# Travail sur les variables
 
-On peut facilement faire des lien comme ceci [GitHub](https://github.com/TechDotIO/python-template) en syntaxe Markdown.
+On peut facilement faire des lien comme ceci [Les variables](https://fr.wikibooks.org/wiki/Programmation_Python/Variables) en syntaxe Markdown.
 
 ## Commençons par un exercice facile
 
