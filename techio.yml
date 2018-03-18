@@ -11,9 +11,9 @@ plan:
       statement: markdowns/welcome.md
 
 projects:
-    python:
-        root: /python-project
-        runner:
-        name: python
-        version: '3'
+python:
+root: /python-project
+runner:
+name: python
+version: '3'
 
