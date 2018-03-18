@@ -1,19 +1,19 @@
 title: Python Project
 
 plan:
-	-title: Les variables
-	statement: markdowns/variables.md
+-title: Les variables
+statement: markdowns/variables.md
 
 #	-title: Les fonctions
 #	statement: markdowns/functions.md
 
-	-title: Welcome du template
-	statement: markdowns/welcome.md
+-title: Welcome du template
+statement: markdowns/welcome.md
 
 projects:
-	python:
-		root: /python-project
-		runner:
-		name: python
-		version: '3'
+python:
+root: /python-project
+runner:
+name: python
+version: '3'
 
