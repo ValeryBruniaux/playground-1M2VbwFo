@@ -2,6 +2,8 @@ title: Python Project
 plan:
 - title: Welcome1
   statement: markdowns/welcome.md
+- title: Variables
+  statement: markdowns/variables.md
 projects:
   python:
     root: /python-project
