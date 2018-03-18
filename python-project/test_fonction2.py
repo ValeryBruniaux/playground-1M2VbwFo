@@ -16,8 +16,8 @@ def test():
     try:
         assert toto(0,0) == 0, "toto(0,0) doit renvoyer 0"
         assert toto(0,5) == 5, "toto(0,5) doit renvoyer 5"
-        assert toto(-1,0) == 0, "toto(-1,0) doit renvoyer -1"
-        assert toto(-5,3) == 0, "toto(-5,3) doit renvoyer -2"
+        assert toto(-1,0) == -1, "toto(-1,0) doit renvoyer -1"
+        assert toto(-5,3) == -2, "toto(-5,3) doit renvoyer -2"
         success()
 
         send_msg("Félicitation 🌟", "C'est bien ça !")
@@ -25,7 +25,7 @@ def test():
     except AssertionError as e:
         fail()
         send_msg("Oops! 🐞", e)
-        send_msg("Hint 💡", "Revoyez les variables ! 🤔")
+        send_msg("Hint 💡", "Revoyez les fonctions ! 🤔")
 
 
 if __name__ == "__main__":
